@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_Layout"
+    android:background="#e4e4e4">
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#64aae3">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="من القاهرة هنا دمشق"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/gss_light"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/menuwhite"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgnews1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/ly1"
+            android:scaleType="fitXY"
+            android:src="@drawable/news3">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/gradient_corner"
+            android:text="بقلم / رئيس التحرير"
+            android:fontFamily="@font/gss_light"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignBottom="@id/imgnews1"
+            android:padding="15dp">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الأحد - ٤ / ١٤ / ٢٠٢٠"
+            android:fontFamily="@font/gss_light"
+            android:textSize="15sp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textnews1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نقل فرع الهجرة والجوازات من مجمع التحرير"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/gss_light">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/gss_light"
+            android:textSize="13sp"
+            android:padding="8dp"
+            android:text="تقرر افتتاح المقر الجديد للإدارة العامة للجوازات والهجرة والجنسية
+بمنطقة العباسية، بديلا عن مجمع التحرير، لاستقبال المواطنين
+والأجانب وتقديم كافة الخدمات لهم اعتبارًا من صباح يوم الأثنين
+أول يوليو المقبل .\n\nوعلى جانب آخر، واصلت الإدارة العامة للجوازات والهجرة والجنسية
+اتخاذ الإجراءات اللازمة والتى من شأنها تسهيل وتيسير الخطوات
+الإدارية والتنظيمية بما يتماشى مع احترام حقوق الإنسان وصون
+كرامته، وذلك من خلال رصد الحالات الإنسانية بين المواطنين
+المترددين على كافة الأقسام التابعة للإدارة، لتقديم كافة
+الستهيلات لحصولهم على مختلف الخدمات الشرطية.\n\n
+واستقبلت أقسام الجوازات على مستوى الجمهورية عدداً من
+المواطنين، وجميعهم من كبار السن، وذوى الإعاقة، والمرضى،
+وغير القادرين على الحركة، وذلك بمقرات أقسام الجوازات
+وخارجها، لتقديم كافة التسهيلات اللازمة لهم فى استخراج
+جوازات السفر والوثائق الخاصة بهم . \n\n"
+            android:textColor="#000"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
